@@ -7,7 +7,7 @@ function FizzBuzz() {
         } else if (number % 3 === 0) {
             return 'Fizz';
         } else {
-            return number
+            return number;
         }
     }
 }
