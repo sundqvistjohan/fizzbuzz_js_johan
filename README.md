@@ -104,6 +104,8 @@ Expectations are what result we are expecting. We check if the result we get is 
 ## Question 8. 
 What is happening in the code below?
 
+**Answer**
+
 ```
 <script src="js/fizzbuzz.js"></script>
 ```
@@ -152,3 +154,10 @@ To the previously defined ```displayDiv```element write, as html, the value of `
     </script>
 ```
 Ends, from top to bottom, the 'click' eventListener code block, the 'DOMContentLoaded' eventListener code block and finally the script block.
+
+## Question 8. 
+What is a CDN (Content Delivery Network)?
+
+**Answer**
+
+A CDN is a decentralized media storage. Instead of storing media content locally (on the same server as the site) we can store it on mupltiple locations around the world. The user is then routed to the closest available content server.
