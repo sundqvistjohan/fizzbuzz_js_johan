@@ -13,3 +13,14 @@ global.expect = chai.expect;
 We want these to be global so that we can use them in our spec files, saving us some repetitive code writing.
 
 ------
+
+## Question 2.
+Why are we placing the following code outside our ``ìt``` block in the specs?
+```
+let fizzBuzz = new FizzBuzz
+```
+**Answer**
+
+We will create the object once and then use it for all our tests, instead of recreating it for every test.
+
+------
