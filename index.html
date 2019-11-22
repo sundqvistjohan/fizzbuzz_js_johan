@@ -6,6 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>FizzBuzz</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css">
+    <script src="src/js/main.js"></script>
+    <script src="src/js/fizzbuzz.js"></script>
 </head>
 <body>
     <div class="ui text container">
@@ -24,17 +26,4 @@
         <div id="display_answer"></div>
     </div>
 </body>
-<script src="src/js/fizzbuzz.js"></script>
-<script>
-    document.addEventListener('DOMContentLoaded', () => {
-        let button = document.getElementById('button')
-        let displayDiv = document.getElementById('display_answer')
-        button.addEventListener('click', () => {
-            let value = document.getElementById('value').value
-            let fizzBuzz = new FizzBuzz
-            let result = fizzBuzz.check(value)
-            displayDiv.innerHTML = result;
-        })
-    })
-</script>
 </html>
